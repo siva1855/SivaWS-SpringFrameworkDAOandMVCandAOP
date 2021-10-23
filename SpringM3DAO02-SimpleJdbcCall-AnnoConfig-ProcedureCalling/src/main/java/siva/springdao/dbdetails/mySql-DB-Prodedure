@@ -1,0 +1,5 @@
+//mysql procedure
+CREATE PROCEDURE `getEpmloyeeId`(in emp_id int,out emp_sal double,out emp_name varchar(20))
+BEGIN
+select employee_name,salary into emp_name,emp_sal from employee_table where employee_id=emp_id;
+END

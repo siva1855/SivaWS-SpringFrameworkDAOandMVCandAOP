@@ -1,0 +1,9 @@
+table name---->employee_table
+
+columns:-
+---------
+1.employee_id
+2.employee_name
+3.salary
+4.email
+5.gender
